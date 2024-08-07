@@ -1,7 +1,5 @@
 # Platformer 2D
 
-![Game Demo](https://github.com/Ivaxamaks/SmallPlatformer2D/blob/Develop/Assets/ReadMe/VideoGamePlay.mp4)
-
 ## Project Description
 
 **Platformer 2D** is a 2D platformer game where the player controls a character moving through levels, defeating enemies, and collecting ammo. The game features simple physics, procedural level generation, and animations.
