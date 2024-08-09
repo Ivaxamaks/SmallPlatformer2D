@@ -24,6 +24,12 @@ namespace UI.HealthBar
             SetHealthValue(health.Health, health.MaxHealth);
         }
 
+        private void OnDisable()
+        {
+            if(_healthController != null)
+                _healthController.HealthChanged -= SetHealthValue;
+        }
+
         private void Update()
         {
             var isInitialized = _healthController != null;

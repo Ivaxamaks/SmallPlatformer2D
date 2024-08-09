@@ -10,7 +10,6 @@ namespace Player
         private const float TimeToDeactivate = 5f;
     
         private int _damage;
-    
         private Vector2 _velocity;
 
         public void Initialize(int damage, Vector2 velocity)

@@ -15,7 +15,7 @@ namespace InputHandler
             {
                 OnFire?.Invoke(false);
             }
-            else if (Input.GetMouseButton(1))
+            else if (Input.GetMouseButton(0))
             {
                 OnFire?.Invoke(true);
             }
